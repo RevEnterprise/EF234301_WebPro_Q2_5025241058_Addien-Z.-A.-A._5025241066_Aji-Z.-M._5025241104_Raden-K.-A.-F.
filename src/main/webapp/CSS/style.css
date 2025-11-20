@@ -1,0 +1,123 @@
+.sidebar {
+    width: 220px;
+    background: #f8f8f8;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    border-right: 1px solid #ddd;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.header {
+    background: #eee;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.profile-menu {
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+    margin-top: auto;
+}
+
+
+body {
+    margin: 0;
+    background: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+.auth-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-card {
+    background: white;
+    width: 380px;
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.auth-title {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.auth-desc {
+    font-size: 14px;
+    color: #666;
+}
+
+.msg-success {
+    color: green;
+    text-align: center;
+}
+
+.msg-error {
+    color: red;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+}
+
+.field label {
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+
+.field input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background: #1e4fc4;
+}
+
+.bottom-text {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+.bottom-text a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
